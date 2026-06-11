@@ -4,7 +4,7 @@
 $input = file_get_contents("php://input");
 
 // URL куда переслать
-$forwardUrl = "https://admin.synterra.uz/api/telegram/yangibot/webhook";
+$forwardUrl = "https://citynet.synterra.uz/api/webhook";
 
 // Создаём контекст запроса
 $options = [
