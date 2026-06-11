@@ -23,4 +23,3 @@ $result = file_get_contents($forwardUrl, false, $context);
 
 // Ответ Telegram (обязательно 200 OK)
 http_response_code(200);
-echo "OK";
