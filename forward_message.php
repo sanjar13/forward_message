@@ -4,13 +4,12 @@
 $input = file_get_contents("php://input");
 
 // URL куда переслать
-$forwardUrl = "https://admin.synterra.uz/api/telegram-bot";
-$HTTP_X_TELEGRAM_BOT_API_SECRET_TOKEN = "67331cd81b38f9a897e28fa5c373e0fea732e529e5fe54473b12896fd34861da";
+$forwardUrl = "https://admin.synterra.uz/api/telegram-bot-njvernjvnjrfvgknjfknjvnjvfnjvkfdknjvnjfdnjvfdnjdwedwedwedkmvkmkerjm";
 
 // Создаём контекст запроса
 $options = [
     "http" => [
-        "header"  => "Content-Type: application/json\nHTTP_X_TELEGRAM_BOT_API_SECRET_TOKEN: $HTTP_X_TELEGRAM_BOT_API_SECRET_TOKEN",
+        "header"  => "Content-Type: application/json",
         "method"  => "POST",
         "content" => $input,
         "timeout" => 10
